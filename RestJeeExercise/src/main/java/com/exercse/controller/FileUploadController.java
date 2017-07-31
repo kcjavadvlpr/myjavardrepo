@@ -31,7 +31,6 @@ public class FileUploadController {
 			
 			System.out.println("FileUploadController====>uploadFile========Data======>"+FileConstants.fileMetaDataMap.get(myFileMetaDataInfo.getFileName()).getFileName());
 			System.out.println("FileUploadController====>uploadFile========SIZE======>"+FileConstants.fileMetaDataMap.size());
-			System.out.println("FileUploadController====>uploadFile==>ENDDDDDDDDDDDD");
 			
 			
 		} catch (IOException e) {
